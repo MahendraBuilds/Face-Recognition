@@ -1,19 +1,27 @@
-# Face_recognition_based_attendance_system
-A python GUI integrated attendance system using face recognition to take attendance.
+Face Recognition Based Attendance System
+A Python-based face recognition attendance system with an intuitive graphical user interface (GUI). This project automates the attendance process by recognizing faces through a webcam and marking attendance in real-time.
 
-In this python project, I have made an attendance system which takes attendance by using face recognition technique. I have also intergrated it with GUI (Graphical user interface) so it can be easy to use by anyone. GUI for this project is also made on python using tkinter.
+🧠 Overview
+This application allows for seamless attendance tracking using facial recognition technology. Built with Python and integrated with a user-friendly GUI using Tkinter, the system captures faces, trains the recognition model, and records attendance securely. It is suitable for classrooms, labs, and other controlled environments.
 
-TECHNOLOGY USED:
-1) tkinter for whole GUI
-2) OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
-3) CSV, Numpy, Pandas, datetime etc. for other purposes.
+🚀 Technologies Used
+Tkinter – for designing the graphical user interface
 
-FEATURES:
-1) Easy to use with interactive GUI support.
-2) Password protection for new person registration.
-3) Creates/Updates CSV file for details of students on registration.
-4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
-5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
+OpenCV – for capturing images and implementing face recognition (cv2.face.LBPHFaceRecognizer_create())
+
+NumPy, Pandas, CSV, datetime – for data handling, storage, and processing
+
+🔐 Key Features
+✅ User-Friendly Interface – Simple and interactive GUI for smooth user experience
+
+🔒 Secure Registration – Password-protected access for new face registrations
+
+📝 Automatic CSV Logging – Student details saved and updated in CSV files
+
+📅 Daily Attendance Records – Generates daily attendance logs with accurate timestamps
+
+📊 Live Updates – Displays real-time attendance in a structured table format (ID, Name, Date, Time)
+
 
 ### For more information:
 https://machinelearningprojects.net/face-recognition-based-attendance-system/
